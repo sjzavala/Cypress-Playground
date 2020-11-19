@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/sjzavala/Cypress-Playground#readme",
   "dependencies": {
-    "cypress": "^5.6.0"
+    "cypress": "^5.6.0",
+    "yarn": "^1.22.10"
   }
 }
