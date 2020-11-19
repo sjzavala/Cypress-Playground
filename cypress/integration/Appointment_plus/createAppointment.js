@@ -9,13 +9,7 @@ describe('create appointment', () => {
         cy.get('#password').click().type("Appointmentplus8")
         //click the sign in button
         cy.get('.btn-form').click()
-        //entering iframe for appointments page
-        .then($iframe =>{
-            const iframe = $iframe.contents()
-            const myInput0 = iframe.find('input:eq(0)')
-            const myInput1 = iframe.find('input:eq(1)')
-            const myInput2 = iframe.find('input:eq(2)')
-            const myButton = iframe.find('button')
+        cy.wait(2000)
+    
         })
     })
-})
